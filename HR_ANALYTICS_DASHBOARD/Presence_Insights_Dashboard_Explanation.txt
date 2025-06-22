@@ -1,0 +1,9 @@
+The dashboard was designed to provide HR professionals and management with visual insights into employee presence patterns. KPIs were built using DAX to show:
+
+- Total working days (excluding WO, HO)
+- Presence % calculated from P values
+- WFH % and SL % derived from Value column classifications
+- Presence trendline by date (with dotted average line)
+- Filters for date, month, and day of week
+
+Each measure was cross-validated using Excel and COUNT, CALCULATE, and FILTER DAX functions. This dashboard helps decision-makers identify work culture trends and manage remote vs in-office participation effectively.
